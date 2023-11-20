@@ -1,0 +1,31 @@
+/* BookDescription.module.css */
+
+.bookCard {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .bookCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageContainer {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .bookImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bookDetails {
+    padding: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .bookDetails {
+      padding: 16px;
+    }
+  }
+  

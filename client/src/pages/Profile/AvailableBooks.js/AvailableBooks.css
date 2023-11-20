@@ -1,0 +1,53 @@
+/* AvailableBooks.css */
+
+/* Apply styles to the entire component container */
+.available-books-container {
+    padding: 20px;
+  }
+  
+  /* Style for each individual book item */
+  .book-item {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-card {
+    height: 100%;
+    width:250px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+  }
+  
+  .book-image {
+    height: 250px;
+    object-fit: cover;
+    width:100%;
+    border-radius: 8px;
+  }
+  
+  .book-details {
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  /* Center text vertically in badge */
+  .book-badge .ant-badge-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  
+  
