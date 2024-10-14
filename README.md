@@ -11,7 +11,7 @@ Technologies used :
 - React.js
 - Node.js
 - Render (for deployment)
-- 
+  
 Functionalities :
 - User authentication (login/signup)
 - Search and filter books
